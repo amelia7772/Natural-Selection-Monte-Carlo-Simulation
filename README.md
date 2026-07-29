@@ -8,7 +8,7 @@ A Monte Carlo simulation of the evolutionary mechanism of mutation and natural s
 2. With each generation the population is sampled for fitness, as each correct character in the correct position (a character that exists in the goal text existing in the member's text in the exact same position) counts as one point of fitness.
 3. If any member's text matches the goal text break the loop and output how many generations the simulation has iterated through.
 4. Otherwise, After sampling the fitness of all population members the population is then sorted based on its members' fitness, the most fit first.
-5. Then the fitness sorted population will lose the less fit half of its population.
+5. Then the fitness sorted population will lose the less fit half of its members.
 6. Then the fit half of the population will be copied into the population to simulate reproduction.
 7. After reproduction, the new generation will then be mutated, as the simulation will go through all members, character by character, and change that single character to a random character or keep it the same based on the specified mutation rate.
 8. Repeat with the new generation as the population.
